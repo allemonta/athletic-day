@@ -3,5 +3,5 @@ COPY . /src
 WORKDIR /src
 COPY package*.json ./
 RUN npm install
-EXPOSE 3005
+EXPOSE 3006
 CMD npm start
